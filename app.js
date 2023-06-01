@@ -4,10 +4,12 @@ const express = require("express");
 const cors = require("cors");
 
 const client = new Client({
-  node: "https://localhost:9200",
+  cloud: {
+    id: "344ac389bc7d477cb890044943205acd:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvJGQ3MDBkNTk1MmJjMDRhMTdhYTg4OWE5NGMzN2JkNmE3JDI1Mjc5ZTk3ZTBiYzQwNTQ4NWMyZGEyYmYwYTRjNTU3",
+  },
   auth: {
     username: "elastic",
-    password: "cNmt*FpTa--I*z_562Ek",
+    password: "ZnQQDhONioCdzBEbY2bN62NK",
   },
   tls: {
     ca: fs.readFileSync("./http_ca.crt"),

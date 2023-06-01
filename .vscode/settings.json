@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/3c25597f-a759-4378-a073-f48502a0cb9e/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/boutikibackend",
+  "appService.deploySubpath": "."
+}
